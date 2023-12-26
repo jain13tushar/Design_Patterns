@@ -1,0 +1,10 @@
+package com.creational.factory.design.pattern.impl;
+
+public class JSONMessage extends Message {
+
+	@Override
+	public String getContent() {
+		return "{\"JSON]\":[]}";
+	}
+
+}
