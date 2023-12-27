@@ -7,6 +7,8 @@ public class ClientLazyRegistrySingleton {
 		LazyRegistryIODH singleton;
 		singleton = LazyRegistryIODH.getInstance();
 		singleton = LazyRegistryIODH.getInstance();
+
+		System.out.println(singleton);
 	}
 
 }
