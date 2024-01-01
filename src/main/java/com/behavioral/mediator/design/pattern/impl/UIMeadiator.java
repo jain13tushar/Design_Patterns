@@ -3,6 +3,7 @@ package com.behavioral.mediator.design.pattern.impl;
 import java.util.ArrayList;
 import java.util.List;
 
+//Mediator
 public class UIMeadiator {
 
 	List<UIControl> colleagues = new ArrayList<UIControl>();
